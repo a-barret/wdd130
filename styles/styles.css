@@ -1,5 +1,13 @@
+:root {
+    --background-color: steelblue;
+    --primary-color: #384e6b;
+    --secondary-color: #ebd494;
+    --accent1-color: #3da5d9;
+    --accent2-color: #d0e4c9;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
@@ -9,8 +17,14 @@ nav a {
     padding: 20px;
 }
 
+body {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+}
+
 h1 {
     color: steelblue;
+    font-weight: 100;
 }
 
 main img {

@@ -20,15 +20,22 @@ h1 {
     text-decoration: none;
 }
 
-.hero {
-    position: absolute;
-}
-
 .hero div {
     position: relative;
 }
 
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+    background-color: var(--accent2-color);
+    opacity: 0.5;
+}
+
 .hero img {
+    float: right;
     display: block;
     width: 100%;
     height: auto;

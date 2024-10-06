@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #384e6b;
+    --secondary-color: #ebd494;
+    --accent1-color: #3da5d9;
+    --accent2-color: #d0e4c9;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+.social {
+    text-decoration: none;
+}
+
+.hero {
+    position: absolute;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

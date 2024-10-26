@@ -46,10 +46,6 @@ h1 {
     text-decoration: none;
 }
 
-.hero div {
-    position: relative;
-}
-
 .hero h1 {
     position: absolute;
     left: 45%;

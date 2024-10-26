@@ -5,6 +5,9 @@
     --accent2-color: #d0e4c9;
 }
 
+
+/* header/nav/logo styling */
+
 header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -30,6 +33,9 @@ nav {
     padding: 5px 50px 5px 50px;
 }
 
+
+/* whole body styling */
+
 body {
     font-family: "Fredoka", sans-serif;
     font-weight: 500;
@@ -37,13 +43,12 @@ body {
     /* max-width: 1200px; */
 }
 
+
+/* hero styling */
+
 h1 {
     font-weight: 300;
     color: var(--secondary-color);
-}
-
-.social {
-    text-decoration: none;
 }
 
 .hero h1 {
@@ -79,6 +84,53 @@ h1 {
     object-fit: cover;
 }
 
+
+/* home page styling */
+
+.newsletter-schedule-trip {
+    padding-top: 325px;
+    display: flex;
+}
+
+.newsletter-schedule-trip section h2 {
+    text-align: center;
+}
+
+.trip-ad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+}
+
+.trip-ad img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    grid-column: 1/3;
+}
+
+.customer-testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    justify-items: center;
+    align-items: center;
+}
+
+.customer-testimonial img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    grid-column: 3/4;
+}
+
+.customer-testimonial p {
+    grid-column: 1/3;
+}
+
+
+/* about page styling */
+
 .history h2 {
     text-align: center;
 }
@@ -109,6 +161,14 @@ h1 {
     text-align: center;
 }
 
+
+/* trips page styling */
+
+
+
+
+/* Contact Page Styling */
+
 .employees {
     display: grid;
     grid-template: 75px 250px / repeat(3,1fr);
@@ -135,6 +195,9 @@ h1 {
     display: grid;
     width: 428px;
 }
+
+
+/* footer styling */
 
 footer {
     text-align: center;

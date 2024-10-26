@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Raftsco</title>
+        <meta name="description" content="Information can be found on this page to get ahold of Raftsco">
+        <meta name="author" content="Aiden Barrett">
+
+        <!--css linked-->
+        <link rel="stylesheet" href="styles/rafting.css">
+
+        <!-- font links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/wwrlogo.png" alt="wwr-logo" width="200">
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="images/rafting10_1024.jpg" alt="Rafting Group">
+                <h1>Raftsco</h1>
+            </div>
+            <section class="employees">
+                <h2>Who We Are</h2>
+                <figure>
+                    <img src="images/guy_1.jpeg" alt="Liam Carter" width="200">
+                    <figcaption>Liam Carter</figcaption>
+                    <figcaption>Owner/CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/guy_2.jpeg" alt="Ethan Blake" width="200">
+                    <figcaption>Ethan Blake</figcaption>
+                    <figcaption>Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/guy_3.jpeg" alt="Noah Bennett" width="200">
+                    <figcaption>Noah Bennett</figcaption>
+                    <figcaption>Operations Manager</figcaption>
+                </figure>
+            </section>
+            <section class="contact-us">
+                <h2>Contact Us</h2>
+                    <p>Address: 123 People Rd, Salt Lake City, UT, USA</p>
+                    <p>Phone: (555)555-1234</p>
+                    <p>Email: people@raftsco.com</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1599.988484036282!2d-111.7823659716197!3d43.81831213955784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729911655368!5m2!1sen!2sus" width="400" height="200" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <form class="send-message">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="senderemail">Email:</label>
+                    <input type="email" id="senderemail" name="senderemail">
+                    <!--message reason-->
+                    <p>Reason for Message:</p>
+                    <ul class="message-reason">
+                        <li>
+                            <input type="radio" id="option1" name="senderreason" value="General Inquiry">
+                            <label for="option1">General Inquiry</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="option2" name="senderreason" value="Reservation Question">
+                            <label for="option2">Reservation Question</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="option3" name="senderreason" value="Website Suggestion">
+                            <label for="option3">Website Suggestion</label>
+                        </li>
+                    </ul>    
+                    <label for="message">Write your message here:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        </main>
+        <footer>
+            <div class="social-links">
+                <a class="wireframe" href="https://app.moqups.com/vwnJcAKp48HwKGL45uQwWC0EOXOoQqtZ/view/page/ad64222d5">Page Wireframe</a>
+                <p>&copy;2024 | Raftsco | Aiden Barrett</p>
+                <a href="https://facebook.com">
+                    <img src="images/5296499_fb_facebook_facebook_logo_icon.png" alt="Facebook" width="40">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/3225183_app_logo_media_popular_social_icon.png" alt="Twitter" width="40">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/3225191_app_instagram_logo_media_popular_icon.png" alt="Instagram" width="40">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

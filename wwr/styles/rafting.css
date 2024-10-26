@@ -109,16 +109,43 @@ h1 {
     text-align: center;
 }
 
-footer p {
+.employees {
+    display: grid;
+    grid-template: 75px 250px / repeat(3,1fr);
+    padding-top: 315px;
+    padding-bottom: 30px;
+}
+
+.employees h2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
     text-align: center;
 }
 
-.social-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+.employees figure figcaption {
+    text-align: center;
+}
+
+.message-reason {
+    list-style-type: none;
+}
+
+.send-message {
+    align-self: center;
+    display: grid;
+    width: 428px;
+}
+
+footer {
+    text-align: center;
+    text-justify: center;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    background-color: var(--accent1-color);
 }
 
 .social-links {
+    display: grid;
+    grid-template-columns: 135px 5fr 45px 45px 45px;
     text-decoration: none;
 }
